@@ -29,7 +29,14 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.7870693112145295,
+          "pitch": 0.13611322882059973,
+          "title": "落瀑",
+          "text": "位於源頭呈現<水之源>意象，襯托出淵源流長之始，於水量滿載的情況下，會有充沛水量流出，豪邁壯闊"
+        }
+      ]
     }
   ],
   "name": "Project Title",
