@@ -1,6 +1,57 @@
 var APP_DATA = {
   "scenes": [
     {
+      "id": "0-",
+      "name": "大大排",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.1325112381291884,
+          "pitch": 0.1763542755817138,
+          "rotation": 0,
+          "target": "7-"
+        },
+        {
+          "yaw": -0.013117181109038256,
+          "pitch": 0.23472917689425898,
+          "rotation": 0,
+          "target": "2-"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.1423460735682465,
+          "pitch": 0.33224188232890306,
+          "title": "中港大排",
+          "text": "中港大排和塭仔圳交會，變得更寬了"
+        }
+      ]
+    },
+    {
       "id": "1-",
       "name": "光雕",
       "levels": [
@@ -84,57 +135,6 @@ var APP_DATA = {
         }
       ],
       "infoHotspots": []
-    },
-	    {
-      "id": "0-",
-      "name": "大大排",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.1325112381291884,
-          "pitch": 0.1763542755817138,
-          "rotation": 0,
-          "target": "7-"
-        },
-        {
-          "yaw": -0.013117181109038256,
-          "pitch": 0.23472917689425898,
-          "rotation": 0,
-          "target": "2-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.1423460735682465,
-          "pitch": 0.33224188232890306,
-          "title": "中港大排",
-          "text": "中港大排和塭仔圳交會，變得更寬了"
-        }
-      ]
     },
     {
       "id": "3-2",
